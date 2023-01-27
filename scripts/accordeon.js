@@ -4,7 +4,6 @@ const lists = document.querySelectorAll('.feature-sub')
 const btns = document.querySelectorAll('.feature__link')
 
 
-
 // Работаем с блоком "Технические характеристики"
 btns.forEach((btn, index) => {
     btn.addEventListener ('click', () => {
