@@ -1,12 +1,13 @@
 // DOM элементы
 
-const modalBtn = document.querySelector('.more')
+const modalBtns = document.querySelectorAll('.more')
 const modal = document.querySelector('.modal')
 const modalClose = document.querySelector('.modal__close')
 const overlay = document.querySelector('.overlay')
 
 // Модальное окно появляется по клику на 'Узнать больше'
-modalBtn.addEventListener('click', () => {
+for (button of modalBtns)
+button.addEventListener('click', () => {
     modal.classList.remove('hidden')
 })
 
